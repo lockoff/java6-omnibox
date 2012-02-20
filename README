@@ -1,0 +1,26 @@
+Google Chrome Omnibox Extension for Searching Java 6 API
+========================================================
+
+Installation:
+=============
+1. Clone this git repo.
+2. Choose "Preferences" under Chrome's Wrench menu.
+3. Choose "Extensions" from the menu on the left.
+4. Ensure "Developer Mode" is checked at the top of the Extensions display page.
+5. Press "Load unpacked extension" button.
+6. In the file-chooser dialogue that appears, choose the directory on your local machine that
+   contains the contents of this git repo.
+
+This should install the extension in your copy of Google Chrome.
+
+Usage:
+======
+1. Typing "java" in the Omnibox will activate the search.
+
+Acknowledgements:
+=================
+This code is a slight modification of the Java Developer Omnibox available from:
+
+http://code.google.com/p/developer-omniboxes-for-chrome/
+
+This modification forces the Omnibox to search the Java 6 API, rather than Java 7.
