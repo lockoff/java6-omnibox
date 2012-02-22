@@ -259,7 +259,7 @@ String.prototype.strip = function() {
             for (var i = 0; i < java7_api_.length; ++i) {
                 var item = java7_api_[i];
                 var fqn = item["fqn"];
-                var url = "http://docs.oracle.com/javase/6/api/" + item["url"];
+                var url = "http://docs.oracle.com/javase/6/docs/api/" + item["url"];
                 var name = item["name"];
                 var fqnlower = fqn.toLowerCase();
                 if (fqnlower == qlower) {
